@@ -1,6 +1,6 @@
 # Copied from: https://github.com/tektoncd/catalog/blob/master/task/maven/0.1/maven.yaml
 apiVersion: automation.cloudbees.io/v1alpha1
-kind: Task
+kind: workflow
 metadata:
   name: maven
   labels:
